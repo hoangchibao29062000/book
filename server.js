@@ -401,5 +401,5 @@ server.patch('/orders/:id', ((req, res)=> {
 server.use(router)
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log('Run Auth API Server')
+  console.log(`Our app is running on port ${ PORT }`);
 })
